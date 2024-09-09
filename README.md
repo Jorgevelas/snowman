@@ -16,7 +16,7 @@ La sección contiene metadatos y recursos necesarios para la página. Incluye:
 
 meta nombre="viewport" content="ancho=ancho del dispositivo, escala inicial=1.0"
 título de la página web
-enlaces a la hoja de estilo y fuentes externas
+enlaces a la hoja de estilo.
 Incluye un contenedor para agrupar y esta compuesto por
  Contenedor Principal: Utiliza un <div> con la clase snowmanContainer que alberga el contenido para la animacion.
 difernetes clases entre ellas snowCap,snowTop,snowScarf entre otras que contienen las partes del muñeco de nieve.
@@ -24,7 +24,7 @@ difernetes clases entre ellas snowCap,snowTop,snowScarf entre otras que contiene
 
 CSS
 el estilo CSS define la apariencia de los elementos de la página web.
- proporciona un  estilo  para  el fondo de la animacion y el diseño de la misma.
+proporciona un  estilo  para  el fondo de la pagina y el diseño de la misma tambien para el muñeco de nieve.
  
 
 JAVASCRIPT
