@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #283747;
+    overflow: hidden; /* Evita que aparezcan barras de desplazamiento debido a la nieve */
+}
+
+.snowmanContainer {
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.snowCap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    border-bottom: 8px solid #000;
+}
+
+.blackRec {
+    width: 70px;
+    height: 10px;
+    background-color: #000;
+}
+
+.greyRec {
+    width: 70px;
+    height: 15px;
+    background-color: #A6ACAF;
+}
+
+.snowTop {
+    width: 120px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eye {
+    margin-top: 30px;
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.snowBottom {
+    width: 170px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: #fff;
+}
+
+.snowScarf {
+    position: absolute;
+    bottom: 135px;
+    width: 120px;
+    height: 20px;
+    border-radius: 100px;
+    border: 5px solid #DC7633;
+    background-color: #D35400;
+}
+
+
+.snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.snowflake {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+.snowflake {
+    animation: fall linear infinite;
+}
+
