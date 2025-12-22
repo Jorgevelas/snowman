@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #283747;
-    overflow: hidden; /* Evita que aparezcan barras de desplazamiento debido a la nieve */
+    overflow: hidden; /* Prevent scroll bars from appearing due to snow */
 }
 
 .snowmanContainer {
@@ -107,4 +107,5 @@ body {
 .snowflake {
     animation: fall linear infinite;
 }
+
 
